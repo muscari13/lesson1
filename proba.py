@@ -14,7 +14,7 @@ while answer != 'Q':
 	if answer == 'Y':
 		print("1. Вывести список файлов?")
 		print("2. Вывести информацию о системе?")
-		answer2 = int(input("Выбери номер ответа"))
+		answer2 = int(input("Выбери номер ответа!"))
 		if answer2 == 1:
 				print(os.listdir())
 		elif answer2 == 2:
